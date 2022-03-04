@@ -1,4 +1,4 @@
-// alert("Welcome to The Grenache Site! \n\nClick on the logo to navigate the mobile version of our website.");
+alert("Welcome to The Grenache Site! \n\nClick on the logo to navigate the mobile version of our website.");
 
 const toggleButton = document.getElementById('toggleButton');
 const naviList = document.getElementById('naviList');
