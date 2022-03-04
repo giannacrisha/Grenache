@@ -405,7 +405,7 @@ h2 {
   0% {transform:rotate(0deg);}
   50% {transform:rotate(-22deg);}
 }
-ul {
+.loaderDIV ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -415,7 +415,7 @@ ul {
   opacity: 0;
   animation: 2s fadeInUp infinite linear 2s;
 }
-li {
+.loaderDIV li {
   width: 6px;
   height: 15px;
   background: white;
@@ -423,16 +423,16 @@ li {
   box-shadow: 0 0 1px white;
   transform-origin: bottom;
 }
-li:nth-child(1) {
+.loaderDIV li:nth-child(1) {
   left: 26px;
   bottom: 5px;
   transform: rotate(-35deg);
 }
-li:nth-child(2) {
+.loaderDIV li:nth-child(2) {
   left: 34px;
   bottom: 8px;
 }
-li:nth-child(3) {
+.loaderDIV li:nth-child(3) {
   left: 42px;
   bottom: 5px;
   transform: rotate(35deg);
