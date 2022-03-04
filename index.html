@@ -10,17 +10,17 @@
 	<!-- css -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- misc -->
-	<link rel="shortcut icon" type="image/png" href="pics/favicon.png">
-	<!-- rubik fonts -->
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<!-- fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Montserrat:wght@300;600;800&family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- MOBILE NAV BAR -->
 	<section id="siteNav">
+		<!-- mobile nav -->
 		<nav class="mobileNavBar">
-			<div><div id="toggleButton"><a><img id="mobileLogo" src="pics/logo.png"></a></div>
+			<div><div id="toggleButton"><a><img id="mobileLogo" src="img/logo.png"></a></div>
 				<ul class="navList" id="naviList">
 					<li class="listItem"><a>About <i>Vitis vinifera</i></a></li>
 					<li class="listItem"><a>Process of Mitosis</a></li>
@@ -31,7 +31,7 @@
 		</nav>
 		<!-- DESKTOP NAV BAR -->
 		<div class="desktopNav">
-			<div><img src="pics/logo.png" id="desktopLogo"></div>
+			<div><img src="img/logo.png" id="desktopLogo"></div>
 			<nav class="desktopNavBar">
 				<a href="#" class="activeTab">Home</a>
 				<a href="#">About</a>
@@ -43,6 +43,7 @@
 	</section>
 
 	<main id="main-doc">
+		<div>
 		<section class="main-section intro">
 			<div>
 				<h1>GRENACHE GRAPE</h1>
@@ -57,25 +58,18 @@
 		</section>
 
 		<section id="infoscroll">
-			<div id="about">
-				<img src="pics/info-1.png">
-				<img src="pics/info-2.png">
-			</div>
-
 			<div class="learnConti">
 					<h1><a href="about.html">Learn More</a></h1>
-					<h2>about <i>Vitis vinefera</i></h2>
+					<h2>about <i>Vitis vinifera</i></h2>
 			</div>
-		</section>
 
-		<section id="infosection">
-			<div class="learnieeeConti">
-				<a href="mitosis.html"><img src="pics/mitosis-sum.png"></a>
+			<div id="about">
+				<img src="img/info-2.png">
 			</div>
 		</section>
 
 		<div class="image">
-			<img class="image__img" src="pics/grapeplan.png" alt="Grape">
+			<img class="image__img" src="img/grapeplan.png" alt="Grape">
 			<div class="image__overlay .image__overlay--blur">
 				<div class="image__title">Grape Fermentation Plan</div>
 				<p class="image__description">
@@ -84,16 +78,40 @@
 			</div>
 		</div>
 
-		<section id="infosection" >
-			<div class="learnConti">
-				<a href="fermentation.html"><img src="pics/ferm.png"></a>
+		<section id="infosection">
+			<div class="learnieeeConti">
+				<a href="mitosis.html"><img src="img/mitosis-sum.png"></a>
 			</div>
 		</section>
+
+		<section id="infosection" >
+			<div class="learnConti">
+				<a href="fermentation.html"><img src="img/ferm.png"></a>
+			</div>
+		</section>
+
+		<section>
+			<div class="two-column">
+				<div class="left-div">
+					<h1><a href="#">Download</a></h1>
+					<h2>our powerpoint presentation</h2>
+				</div>
+				<div class="right-div">
+					<img src="img/slides.png">
+				</div>
+			</div>
+		</section>
+	</div>
 	</main>
 
-	<footer></footer>
+	<footer>
+		<div id="footer-credits">
+			<p>Copyright &copy; 2022 by 
+			<a href="bit.ly/giannacrisha"><i>Gianna Saludo</i></a></p>
+		</div>
+	</footer>
 
-	<div class="loaderDIV">
+	<!-- <div class="loaderDIV">
 		<div class="loader">
 			<ul>
 				<li></li>
@@ -107,7 +125,7 @@
 				<div class="top"></div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<script type="text/javascript" src="script.js"></script>
 	
 </body>
