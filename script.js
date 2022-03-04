@@ -7,9 +7,9 @@ toggleButton.addEventListener('click', () => {
   naviList.classList.toggle('active');
 })
 
-let loaderDIV = document.querySelector(".loaderDIV");
+let loaderContainer = document.querySelector(".loader-container");
 window.addEventListener('load', function(){
-	loaderDIV.style.display = 'none';
+	loaderContainer.style.display = 'none';
 });
 
 function myFunction() {
