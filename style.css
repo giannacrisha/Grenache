@@ -328,14 +328,18 @@ h2 {
 
 /* loader  */
 
-.loader-container {
+.loaderDIV {
 	width: 100%;
 	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: #251E20;
+	height: 100%;
+	background-color: #251E20;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 .wineglass {
   height: 36px;
